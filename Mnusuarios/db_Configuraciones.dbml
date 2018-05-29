@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CONFIGURACIONES" Class="db_ConfiguracionesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-RL9JSUG\SQLEXPRESS;Initial Catalog=CONFIGURACIONES;Persist Security Info=True;User ID=sa" SettingsObjectName="Mnusuarios.Properties.Settings" SettingsPropertyName="CONFIGURACIONESConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Configuracion_empresas" Member="Configuracion_empresas">
+    <Type Name="Configuracion_empresa">
+      <Column Name="numero_empresa" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre_empresa" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="rfc" Type="System.String" DbType="NChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre_servidor" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="nombre_base_datos" Type="System.String" DbType="NChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="usuario_base_datos" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="password_base_datos" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="sistema" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

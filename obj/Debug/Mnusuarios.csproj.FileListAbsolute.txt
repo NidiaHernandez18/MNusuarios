@@ -1,0 +1,8 @@
+c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\bin\Debug\Mnusuarios.dll
+c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\bin\Debug\Mnusuarios.pdb
+c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.dll
+c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.pdb
+c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.frmPermisos.resources
+c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.csproj.GenerateResource.Cache
+c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.Properties.Resources.resources
+c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.csprojResolveAssemblyReference.cache

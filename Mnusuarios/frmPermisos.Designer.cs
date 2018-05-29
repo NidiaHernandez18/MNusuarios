@@ -37,7 +37,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboB_Programa = new System.Windows.Forms.ComboBox();
+            this.comboB_SelecSistema = new System.Windows.Forms.ComboBox();
             this.comboB_Empresa = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -110,11 +110,10 @@
             this.comboB_modulos.Name = "comboB_modulos";
             this.comboB_modulos.Size = new System.Drawing.Size(153, 21);
             this.comboB_modulos.TabIndex = 0;
+            this.comboB_modulos.Click += new System.EventHandler(this.comboB_modulos_Click);
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.SteelBlue;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label4);
@@ -145,13 +144,14 @@
             this.label4.Text = "Configuracion de los Permisos";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboB_Programa
+            // comboB_SelecSistema
             // 
-            this.comboB_Programa.FormattingEnabled = true;
-            this.comboB_Programa.Location = new System.Drawing.Point(31, 150);
-            this.comboB_Programa.Name = "comboB_Programa";
-            this.comboB_Programa.Size = new System.Drawing.Size(150, 21);
-            this.comboB_Programa.TabIndex = 3;
+            this.comboB_SelecSistema.FormattingEnabled = true;
+            this.comboB_SelecSistema.Location = new System.Drawing.Point(31, 150);
+            this.comboB_SelecSistema.Name = "comboB_SelecSistema";
+            this.comboB_SelecSistema.Size = new System.Drawing.Size(150, 21);
+            this.comboB_SelecSistema.TabIndex = 3;
+            this.comboB_SelecSistema.Click += new System.EventHandler(this.comboB_SelecSistema_Click);
             // 
             // comboB_Empresa
             // 
@@ -160,6 +160,7 @@
             this.comboB_Empresa.Name = "comboB_Empresa";
             this.comboB_Empresa.Size = new System.Drawing.Size(150, 21);
             this.comboB_Empresa.TabIndex = 4;
+            this.comboB_Empresa.Click += new System.EventHandler(this.comboB_Empresa_Click);
             // 
             // label1
             // 
@@ -276,7 +277,6 @@
             this.btt_Nuevo.Text = "Nuevo";
             this.btt_Nuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btt_Nuevo.UseVisualStyleBackColor = true;
-            this.btt_Nuevo.Click += new System.EventHandler(this.btt_Nuevo_Click);
             // 
             // bttn_Editar
             // 
@@ -307,6 +307,7 @@
             this.bttn_Eliminar.Text = "Eliminar";
             this.bttn_Eliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.bttn_Eliminar.UseVisualStyleBackColor = true;
+            this.bttn_Eliminar.Click += new System.EventHandler(this.bttn_Eliminar_Click);
             // 
             // bttn_Cerrar
             // 
@@ -365,7 +366,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboB_Empresa);
-            this.Controls.Add(this.comboB_Programa);
+            this.Controls.Add(this.comboB_SelecSistema);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
@@ -395,7 +396,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboB_Programa;
+        private System.Windows.Forms.ComboBox comboB_SelecSistema;
         private System.Windows.Forms.ComboBox comboB_Empresa;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

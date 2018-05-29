@@ -5,14 +5,4 @@ c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuari
 c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.frmPermisos.resources
 c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.csproj.GenerateResource.Cache
 c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.Properties.Resources.resources
-c:\users\programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.csprojResolveAssemblyReference.cache
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.frmPermisos.resources
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.Properties.Resources.resources
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.csproj.GenerateResource.Cache
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.dll
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.pdb
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\bin\Debug\Mnusuarios.dll
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\bin\Debug\Mnusuarios.pdb
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\bin\Debug\Mnusuarios.dll.config
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.frmLogin.resources
-C:\Users\Programacion2\Documents\GitHub\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.csprojResolveAssemblyReference.cache
+C:\Users\Programacion2\documents\visual studio 2013\Projects\Mnusuarios\Mnusuarios\obj\Debug\Mnusuarios.csprojResolveAssemblyReference.cache

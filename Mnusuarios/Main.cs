@@ -21,6 +21,5 @@ namespace Mnusuarios
             objPer.conecta = cadenaConexion;
             objPer.ShowDialog();
         }
-
     }
 }
